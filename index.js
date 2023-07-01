@@ -55,7 +55,7 @@ function init() {
   // model
   const loader = new FBXLoader();
   loader.load(
-    "public/model/girl.fbx",
+    "./model/girl.fbx",
     (object) => {
       mixer = new THREE.AnimationMixer(object);
 
